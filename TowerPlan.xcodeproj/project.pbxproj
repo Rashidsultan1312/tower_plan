@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20001 /* TowerPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20001; };
+		A20002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20002; };
+		A20003 /* TPTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20003; };
+		A20004 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20004; };
+		A20005 /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20005; };
+		A20006 /* FloorPurpose.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20006; };
+		A20007 /* BuildItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20007; };
+		A20008 /* MaterialCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20008; };
+		A20009 /* ProjectStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20009; };
+		A20010 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20010; };
+		A20011 /* EstimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20011; };
+		A20012 /* BreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20012; };
+		A20013 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20013; };
+		A20014 /* AddFloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20014; };
+		A20015 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20015; };
+		A20016 /* ProjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20016; };
+		A20017 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20017; };
+		A20018 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20018; };
+		A20019 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20019; };
+		A20020 /* AnimatedCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20020; };
+		A20021 /* FloorPurposeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20021; };
+		A20022 /* MaterialCategoryIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20022; };
+		A20023 /* EstimateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20023; };
+		A20024 /* FloorBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20024; };
+		A20025 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20025; };
+		A20026 /* MaterialPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20026; };
+		A20027 /* CostBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20027; };
+		A20032 /* CraneHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20032; };
+		A20028 /* WebGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20028; };
+		A20029 /* WebGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20029; };
+		A20030 /* WebGateConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20030; };
+		A20031 /* RemoteConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20031; };
+		A20099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20099; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B20001 /* TowerPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerPlanApp.swift; sourceTree = "<group>"; };
+		B20002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20003 /* TPTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPTheme.swift; sourceTree = "<group>"; };
+		B20004 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		B20005 /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		B20006 /* FloorPurpose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorPurpose.swift; sourceTree = "<group>"; };
+		B20007 /* BuildItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildItem.swift; sourceTree = "<group>"; };
+		B20008 /* MaterialCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCategory.swift; sourceTree = "<group>"; };
+		B20009 /* ProjectStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectStore.swift; sourceTree = "<group>"; };
+		B20010 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		B20011 /* EstimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateView.swift; sourceTree = "<group>"; };
+		B20012 /* BreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakdownView.swift; sourceTree = "<group>"; };
+		B20013 /* ItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
+		B20014 /* AddFloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFloorView.swift; sourceTree = "<group>"; };
+		B20015 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		B20016 /* ProjectsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsListView.swift; sourceTree = "<group>"; };
+		B20017 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B20018 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		B20019 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B20020 /* AnimatedCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCounter.swift; sourceTree = "<group>"; };
+		B20021 /* FloorPurposeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorPurposeIcon.swift; sourceTree = "<group>"; };
+		B20022 /* MaterialCategoryIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCategoryIcon.swift; sourceTree = "<group>"; };
+		B20023 /* EstimateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateCard.swift; sourceTree = "<group>"; };
+		B20024 /* FloorBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorBlock.swift; sourceTree = "<group>"; };
+		B20025 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		B20026 /* MaterialPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialPicker.swift; sourceTree = "<group>"; };
+		B20027 /* CostBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostBarChart.swift; sourceTree = "<group>"; };
+		B20032 /* CraneHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraneHero.swift; sourceTree = "<group>"; };
+		B20028 /* WebGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGate.swift; sourceTree = "<group>"; };
+		B20029 /* WebGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGateView.swift; sourceTree = "<group>"; };
+		B20030 /* WebGateConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebGateConfig.swift; sourceTree = "<group>"; };
+		B20031 /* RemoteConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigService.swift; sourceTree = "<group>"; };
+		B20099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C20001 /* TowerPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowerPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D20001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20000 = {
+			isa = PBXGroup;
+			children = (
+				E20001 /* TowerPlan */,
+				E20099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E20001 /* TowerPlan */ = {
+			isa = PBXGroup;
+			children = (
+				E20002 /* App */,
+				E20003 /* Theme */,
+				E20004 /* Models */,
+				E20005 /* Views */,
+				E20006 /* Components */,
+				E20007 /* WebGate */,
+				B20099 /* Assets.xcassets */,
+			);
+			path = TowerPlan;
+			sourceTree = "<group>";
+		};
+		E20002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B20001 /* TowerPlanApp.swift */,
+				B20002 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E20003 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B20003 /* TPTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		E20004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B20004 /* Project.swift */,
+				B20005 /* Floor.swift */,
+				B20006 /* FloorPurpose.swift */,
+				B20007 /* BuildItem.swift */,
+				B20008 /* MaterialCategory.swift */,
+				B20009 /* ProjectStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E20005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B20010 /* ProjectView.swift */,
+				B20011 /* EstimateView.swift */,
+				B20012 /* BreakdownView.swift */,
+				B20013 /* ItemsListView.swift */,
+				B20014 /* AddFloorView.swift */,
+				B20015 /* AddItemView.swift */,
+				B20016 /* ProjectsListView.swift */,
+				B20017 /* SettingsView.swift */,
+				B20018 /* PrivacyPolicyView.swift */,
+				B20019 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E20006 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B20020 /* AnimatedCounter.swift */,
+				B20021 /* FloorPurposeIcon.swift */,
+				B20022 /* MaterialCategoryIcon.swift */,
+				B20023 /* EstimateCard.swift */,
+				B20024 /* FloorBlock.swift */,
+				B20025 /* ItemRow.swift */,
+				B20026 /* MaterialPicker.swift */,
+				B20027 /* CostBarChart.swift */,
+				B20032 /* CraneHero.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E20007 /* WebGate */ = {
+			isa = PBXGroup;
+			children = (
+				B20028 /* WebGate.swift */,
+				B20029 /* WebGateView.swift */,
+				B20030 /* WebGateConfig.swift */,
+				B20031 /* RemoteConfigService.swift */,
+			);
+			path = WebGate;
+			sourceTree = "<group>";
+		};
+		E20099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C20001 /* TowerPlan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20001 /* TowerPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G20003;
+			buildPhases = (
+				F20002 /* Sources */,
+				D20001 /* Frameworks */,
+				F20003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowerPlan;
+			productName = TowerPlan;
+			productReference = C20001 /* TowerPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P20001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F20001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = G20001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E20000;
+			productRefGroup = E20099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20001 /* TowerPlan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20099 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20001 /* TowerPlanApp.swift in Sources */,
+				A20002 /* ContentView.swift in Sources */,
+				A20003 /* TPTheme.swift in Sources */,
+				A20004 /* Project.swift in Sources */,
+				A20005 /* Floor.swift in Sources */,
+				A20006 /* FloorPurpose.swift in Sources */,
+				A20007 /* BuildItem.swift in Sources */,
+				A20008 /* MaterialCategory.swift in Sources */,
+				A20009 /* ProjectStore.swift in Sources */,
+				A20010 /* ProjectView.swift in Sources */,
+				A20011 /* EstimateView.swift in Sources */,
+				A20012 /* BreakdownView.swift in Sources */,
+				A20013 /* ItemsListView.swift in Sources */,
+				A20014 /* AddFloorView.swift in Sources */,
+				A20015 /* AddItemView.swift in Sources */,
+				A20016 /* ProjectsListView.swift in Sources */,
+				A20017 /* SettingsView.swift in Sources */,
+				A20018 /* PrivacyPolicyView.swift in Sources */,
+				A20019 /* OnboardingView.swift in Sources */,
+				A20020 /* AnimatedCounter.swift in Sources */,
+				A20021 /* FloorPurposeIcon.swift in Sources */,
+				A20022 /* MaterialCategoryIcon.swift in Sources */,
+				A20023 /* EstimateCard.swift in Sources */,
+				A20024 /* FloorBlock.swift in Sources */,
+				A20025 /* ItemRow.swift in Sources */,
+				A20026 /* MaterialPicker.swift in Sources */,
+				A20027 /* CostBarChart.swift in Sources */,
+				A20032 /* CraneHero.swift in Sources */,
+				A20028 /* WebGate.swift in Sources */,
+				A20029 /* WebGateView.swift in Sources */,
+				A20030 /* WebGateConfig.swift in Sources */,
+				A20031 /* RemoteConfigService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G20002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G20004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		G20005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tower Plan";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallowtommy.stackbudget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		G20006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7PDZ3WCUA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tower Plan";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallowtommy.stackbudget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G20001 /* Build configuration list for PBXProject "TowerPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G20002 /* Debug */,
+				G20004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G20003 /* Build configuration list for PBXNativeTarget "TowerPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G20005 /* Debug */,
+				G20006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = P20001 /* Project object */;
+}
