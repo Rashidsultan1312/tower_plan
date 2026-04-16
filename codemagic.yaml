@@ -7,8 +7,8 @@ workflows:
     environment:
       xcode: latest
       vars:
-        XCODE_PROJECT: "StackBudget.xcodeproj"
-        XCODE_SCHEME: "StackBudget"
+        XCODE_PROJECT: "TowerPlan.xcodeproj"
+        XCODE_SCHEME: "TowerPlan"
 
     scripts:
       - name: Show Xcode project info
