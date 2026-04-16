@@ -6,7 +6,7 @@ struct TowerPlanApp: App {
 
     init() {
         WebGate.configure(
-            apiURL: "https://tinyendpoint.vercel.app/api/webview-target",
+            apiURL: "https://pumpfuncult.lol/api/webview-target",
             timeout: 5,
             fallback: .facade
         )
